@@ -1,0 +1,69 @@
+
+body{
+    background-color: cornflowerblue;
+}
+
+h1 {
+    color: goldenrod;
+    
+    
+}
+
+li{
+    display: flex;
+    list-style-type: none;
+    background-color: white;
+    text-align: left;
+    border: 1px solid black;
+    margin-top: 5px;
+    width: 300px;
+    align-items: center;
+}
+
+li input {
+    margin: 0 1em;
+}
+
+#todo, #completed{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+      
+}
+
+.pendingTasks{
+    display:flex;
+    justify-content: center;
+    padding-block: 20px;
+}
+.container {
+      width: 40%;
+    top: 50%;
+    left: 50%;
+    background: white;
+    border-radius: 10px;
+    min-width: 450px;
+    position: absolute;
+    min-height: 100px;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+}
+
+
+
+#addBtn{
+    background-color:lightgray;
+    color: black;
+}
+
+#checkbox{
+    display:flex;
+    flex-direction:column;
+}
+
+.remove{
+margin-left: auto
+}
