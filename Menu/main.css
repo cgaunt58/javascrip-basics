@@ -1,0 +1,56 @@
+
+body{
+    background-color: cornflowerblue;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 36%;
+    margin: 2px;      
+}
+#startersButton{
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#entreesButton{
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+#dessertsButton{
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#allButton{
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img {
+    height: 350px;
+    width: 200px;
+}
+#dishesList{
+    color:darkblue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    padding-left: 29%;
+    
+}
+.title{
+    display:flex;
+    padding-left: 40%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.choices{
+    display: flex;
+    padding-left: 40%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media (min-width: 768px) {
+    .buttons {
+        flex-direction: row; 
+    }
+    img {
+        width: 40%;
+    }
+}
