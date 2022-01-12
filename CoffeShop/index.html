@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffe Shop Manager 1.0</title>
+</head>
+
+<body>
+    <button id="viewOrdersButton">View All Outstanding Orders</button>
+    <br>
+    <br>
+    <h2>Add a new order:</h2>
+    <div>
+        <form type="submit" id="addOrderForm">
+            <input type="email" placeholder="Email addresss" id="orderBox" required>
+            <br>
+            <input type="text" placeholder="Drink type" required id="drinkTypeBox">
+            <div>Select your size:
+                <select id="sizeSelect">
+                    <option>Small</option>
+                    <option>Medium</option>
+                    <option>Large</option>
+                </select>
+            </div>
+            <button>Submit Order</button>
+        </form>
+        <div id="completedOrdersDiv"></div>
+    </div>
+    <h2>Search for a order:</h2>
+    <form type="submit" id="SearchForm">
+        <input type="email" placeholder="Email address" id="searchBox"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+        <button>Submit</button>
+    </form>
+    <div id="coffeePrice"></div>
+    <div id="ordersDiv"></div>
+     <script src="srcipt.js"></script>
+</body>
+
+</html>
