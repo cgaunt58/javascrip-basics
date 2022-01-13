@@ -1,0 +1,22 @@
+/*
+Body
+*/
+body{
+  background: #448aff;
+}
+
+.title{
+  padding-left: 30%;
+  padding-top: 5%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sub{
+  padding-left: 36%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#cityChoiceForm{
+  padding-left: 38%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
